@@ -31,8 +31,6 @@ void createDirec(){
 
 int main (){
 	listFile();
-	listOfAllFile();
-	createDirec();
 	
 
 	return 0:
