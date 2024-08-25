@@ -68,12 +68,23 @@ void mainMenu() {
             listOfAllFile();
             break;
         case 2:
-            
-		}
+             createDirec();
+            break;
+        case 3:
+            changeDirec();
+            break;
+        case 4:
+            cout << "Exiting..." << endl;
+            break;
+        default:
+            cout << "Invalid choice! Try again." << endl;
+        }
+    } while (choice != 4);
+}
 
 
 int main (){
-	
+		mainMenu();
 
 	return 0;
 }
